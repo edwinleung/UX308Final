@@ -19,7 +19,7 @@ module.exports = class extends Page {
             <p>${oEntity.full_description}</p>
             <p>${oEntity.price}</p>
             <form action="https://desolate-cliffs-46309.herokuapp.com/payment" method="post">
-            <input type ="hidden" name ="price" value ="21" />
+            <input type ="hidden" name ="price" value ="${oEntity.price}" />
             <input type="hidden" name="title" value="${oEntity.title}" />
             <input type="tel" placeholder="Enter your number" name="telephone"/>
             <button type="submit">Order now</button>
