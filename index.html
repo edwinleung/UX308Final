@@ -22,7 +22,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href=".">Flavour of Asia</a>
+            <a class="navbar-brand" href=".">Portfolio of Richard Hildred</a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -39,9 +39,10 @@
             <p><img src="https://images.unsplash.com/photo-1524182576066-1bb979e25342?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Turkey Dinner"</p>
             <p>Great for leftovers...and the first time!</p>
             <p>undefined</p>
-            <form action="http://localhost:3002/payment" method="post">
+            <form action="https://desolate-cliffs-46309.herokuapp.com/payment" method="post">
+            <input type ="hidden" name ="price" value ="21" />
             <input type="hidden" name="title" value="Turkey Dinner" />
-            <input type="tel" placeholder="Enter your number" />
+            <input type="tel" placeholder="Enter your number" name="telephone"/>
             <button type="submit">Order now</button>
             </form>
             
@@ -49,9 +50,10 @@
             <p><img src="https://images.unsplash.com/photo-1600147184950-b0a367a98bc3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=976&q=80" alt="Spicy Korean Fried Chicken"</p>
             <p>Crispy fried chicken seasoned with hot pepper sauce. </p>
             <p>$13.00</p>
-            <form action="http://localhost:3002/payment" method="post">
+            <form action="https://desolate-cliffs-46309.herokuapp.com/payment" method="post">
+            <input type ="hidden" name ="price" value ="21" />
             <input type="hidden" name="title" value="Spicy Korean Fried Chicken" />
-            <input type="tel" placeholder="Enter your number" />
+            <input type="tel" placeholder="Enter your number" name="telephone"/>
             <button type="submit">Order now</button>
             </form>
             
