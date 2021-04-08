@@ -15,10 +15,11 @@ module.exports = class extends Page {
             oEntity.id = key;
             sResult += `
             <h2>${oEntity.title}</h2>
-            <p><img src="${oEntity.featured_image}" alt"${oEntity.title}"</p>
+            <p><img src="${oEntity.featured_image}" alt="${oEntity.title}"</p>
             <p>${oEntity.full_description}</p>
-            <form action="http://localhost:3001/payment" method="post">
-            <input type="hidden" value="${oEntity.title}" />
+            <p>${oEntity.price}</p>
+            <form action="http://localhost:3002/payment" method="post">
+            <input type="hidden" name="title" value="${oEntity.title}" />
             <input type="tel" placeholder="Enter your number" />
             <button type="submit">Order now</button>
             </form>
