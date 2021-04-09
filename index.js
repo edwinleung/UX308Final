@@ -18,6 +18,8 @@ module.exports = class extends Page {
             <p><img src="${oEntity.featured_image}" alt="${oEntity.title}"</p>
             <p>${oEntity.full_description}</p>
             <p>${oEntity.price}</p>
+            <p>${oEntity.date}</p>
+            <p>${oEntity.location}</p>
             <form action="https://desolate-cliffs-46309.herokuapp.com/payment" method="post">
             <input type ="hidden" name ="price" value ="21" />
             <input type="hidden" name="title" value="${oEntity.title}" />
