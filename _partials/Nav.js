@@ -15,7 +15,7 @@ module.exports = class extends Page{
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href=".">Portfolio of ${this.sName}</a>
+            <a class="navbar-brand" href=".">Tastes of Asia</a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
