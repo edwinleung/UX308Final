@@ -1,7 +1,7 @@
 /* your css here */
 img {
     width:400px;
-    height: 400px;
+    height: auto;
 }
 /* color scheme */
 :root {
