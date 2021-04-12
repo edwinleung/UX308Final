@@ -1,4 +1,7 @@
 /* your css here */
+div.a {
+    text-align: center;
+}
 img {
     width:400px;
     height: auto;
