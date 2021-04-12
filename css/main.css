@@ -1,5 +1,7 @@
 /* your css here */
-
+img {
+    border-radius: 8px;
+}
 /* color scheme */
 :root {
     --header-bg-color: #222;
