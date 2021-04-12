@@ -1,11 +1,11 @@
 /* your css here */
-.contact .navbar-inverse .navbar-nav > li > a[href="contact.html"], 
-.about .navbar-inverse .navbar-nav > li > a[href="about.html"],
+.contact .navbar-inverse a.navbar-brand[href="."],
+.about .navbar-inverse a.navbar-brand[href="."],
 .index .navbar-inverse a.navbar-brand[href="."]
 {
     margin-left:80px;
 }
-.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a 
+.navbar-inverse .navbar-nav>li>a 
 {
     margin-right: 80px;
 }
