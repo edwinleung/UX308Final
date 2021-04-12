@@ -38,4 +38,5 @@ footer {
 
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
     color: inherit;
+    margin-right: 80px;
 }
