@@ -3,6 +3,7 @@
 .about .navbar-inverse a.navbar-brand[href="."],
 .index .navbar-inverse a.navbar-brand[href="."]
 {
+    font-size: medium;
     margin-left:80px;
 }
 .navbar-inverse .navbar-nav>li>a 
