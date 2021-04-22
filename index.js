@@ -18,10 +18,10 @@ module.exports = class extends Page {
             <p><img src="${oEntity.featured_image}" alt="${oEntity.title}"</p>
             <p>${oEntity.full_description}</p>
             <p>$${oEntity.price}</p>
-            <p>${oEntity.date}</p>
-            <p>${oEntity.materials}</p>
+            <p>Deadline to Order: ${oEntity.date}</p>
+            <p>Materials: ${oEntity.materials}</p>
             <form action="https://cryptic-basin-04657.herokuapp.com/payment" method="post">
-            <input type ="hidden" name ="price" value ="$${oEntity.price}" />
+            <input type ="hidden" name ="price" value ="${oEntity.price}" />
             <input type="hidden" name="title" value="${oEntity.title}" />
             <input type="tel" placeholder="Enter your number" name="telephone"/>
             <button type="submit">Order now</button>
