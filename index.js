@@ -20,7 +20,7 @@ module.exports = class extends Page {
             <p>${oEntity.price}</p>
             <p>${oEntity.date}</p>
             <p>${oEntity.materials}</p>
-            <form action="https://cryptic-basin-04657.herokuapp.com//payment" method="post">
+            <form action="https://cryptic-basin-04657.herokuapp.com/payment" method="post">
             <input type ="hidden" name ="price" value ="${oEntity.price}" />
             <input type="hidden" name="title" value="${oEntity.title}" />
             <input type="tel" placeholder="Enter your number" name="telephone"/>
