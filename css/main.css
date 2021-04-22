@@ -19,8 +19,8 @@ img {
 }
 /* color scheme */
 :root {
-    --header-bg-color: rgb(155, 83, 83);
-    --header-txt-color: rgb(212, 212, 212);
+    --header-bg-color: #121212;
+    --header-txt-color: rgb(219, 219, 219);
     --header-highlight-color: white;
 }
 
