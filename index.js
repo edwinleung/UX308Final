@@ -6,7 +6,7 @@ module.exports = class extends Page {
         super({title:"Home", sName:"Edwin Leung"});
     }
     render(sPage) {
-        const oJson = fetch("https://ux308winter2021-96b76-default-rtdb.firebaseio.com/meals.json").json();
+        const oJson = fetch("https://ux308final-93a1d-default-rtdb.firebaseio.com/meals.json").json();
         console.log(oJson);
         let sResult = "<h1>Upcoming Craft Kits</h1>";
         Object.keys(oJson).map((key) => {
@@ -19,7 +19,7 @@ module.exports = class extends Page {
             <p>${oEntity.full_description}</p>
             <p>${oEntity.price}</p>
             <p>${oEntity.date}</p>
-            <p>${oEntity.location}</p>
+            <p>${oEntity.materials}</p>
             <form action="https://desolate-cliffs-46309.herokuapp.com/payment" method="post">
             <input type ="hidden" name ="price" value ="${oEntity.price}" />
             <input type="hidden" name="title" value="${oEntity.title}" />
