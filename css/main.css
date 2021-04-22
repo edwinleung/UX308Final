@@ -20,7 +20,7 @@ img {
 /* color scheme */
 :root {
     --header-bg-color: rgb(155, 83, 83);
-    --header-txt-color: #aaa;
+    --header-txt-color: rgb(212, 212, 212);
     --header-highlight-color: white;
 }
 
